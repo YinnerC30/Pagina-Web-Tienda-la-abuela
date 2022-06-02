@@ -1,0 +1,157 @@
+
+@import url('https://fonts.googleapis.com/css2? familia=Montserrat:wght@500&display=swap');
+
+/* Es la caja de color negro que rodea los formularios*/
+.form-contenedor {
+    width: 400px;
+    background: #16181d;
+    padding: 40px;
+    margin: auto;
+    border-radius: 25px;
+    font-family: 'Montserrat', sans-serif;
+    color: #EEEEEE;
+    box-shadow: 7px 13px 37px #000;
+}
+
+/* Es el fondo de puntitos que tienen las paginas y ademas la aplicación de la fuente 'Monserat' */
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #3e5f84;
+    opacity: 1;
+    background-image:  radial-gradient(#130a19 0.9px, transparent 0.9px), radial-gradient(#130a19 0.9px, #3e5f84 0.9px);
+    background-size: 36px 36px;
+    background-position: 0 0,18px 18px;
+}
+
+/* El tamaño y color de los titulos y textos del formulario */
+.form-contenedor h2 {
+    font-size: 30px;
+    margin: auto;
+    color: #00ADB5;
+    text-align: center;
+    padding: 10px;
+}
+
+.text {
+    font-size: 15px;
+    
+}
+
+/* Personalizaciones de los campos de input del formulario */
+
+.form_input {
+    width: 95%;
+    background: #24303c;
+    padding: 8px;
+    border-color: rgba(0, 255, 255, 0.336);
+    border-radius: 4px;
+    font-family: 'calibri';
+    font-size: 14px;
+    color: cadetblue;
+}
+
+/* Diseño de los botones del formulario */
+.botones {
+    width: 40%;
+    background: #1f53c5;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.botones-solos {
+    width: 80%;
+    background: #1f53c5;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 40px;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.botones-pequeños {
+    width: 30%;
+    background: #1f53c5;
+    border: none;
+    padding: 12px;
+    color: white;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    border-radius: 20px;
+}    
+button:hover {
+    background: #3e6aca;
+}
+
+button:active {
+    background-color: #3eaeca;
+}
+/* Contenedor negro y centrado del login user normal */
+.form-contenedor-login {
+    width: 400px;
+    background: #16181d;
+    padding: 40px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 25px;
+    font-family: 'Montserrat', sans-serif;
+    color: #EEEEEE;
+    box-shadow: 7px 13px 37px #000;
+}
+
+.form-contenedor-login h2 {
+    font-size: 30px;
+    margin: auto;
+    color: #00ADB5;
+    text-align: center;
+    padding: 0px;
+
+}
+
+/* Diseño de los enlaces - colores en sí */
+
+a {
+    font-size: 15px;
+}
+a:visited {
+    color: crimson;
+}
+
+a:link {
+    color: #1eaaa3;
+    text-decoration: none;
+    
+
+}
+
+a:hover {
+    color: #00FFAB;
+    font-size: 15px;
+}
+
+a:active {
+    color: #1f53c5;
+}
+
+.acciones-admin {
+    font-size: 15px;
+    padding: 30px;
+    border-color: #00FFAB;
+    border: 10px;
+    
+}
+
+.acciones-admin h3 {
+    font-size: 20px;
+    border: 20px;
+    border-color: #1f53c5;
+}
