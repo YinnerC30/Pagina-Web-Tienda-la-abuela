@@ -50,6 +50,17 @@ body {
     color: cadetblue;
 }
 
+.barra-busqueda {
+    width: 95%;
+    background: #24303c;
+    padding: 8px;
+    border-color: rgba(0, 255, 255, 0.336);
+    border-radius: 4px;
+    font-family: 'calibri';
+    font-size: 14px;
+    color: cadetblue;
+}
+
 /* Diseño de los botones del formulario */
 .botones {
     width: 40%;
@@ -80,6 +91,20 @@ body {
 .botones-pequeños {
     width: 30%;
     background: #1f53c5;
+    margin-top: 10px;
+    border: none;
+    padding: 12px;
+    color: white;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    border-radius: 20px;
+}    
+
+.botones-pequeños-centrado {
+    width: 30%;
+    background: #1f53c5;
+    margin-top: 10px;
     border: none;
     padding: 12px;
     color: white;
