@@ -4,23 +4,21 @@
 /* Es la caja de color negro que rodea los formularios*/
 .form-contenedor {
     width: 400px;
-    background: #16181d;
+    background: #FCF8E8;
     padding: 40px;
     margin: auto;
     border-radius: 25px;
     font-family: 'Montserrat', sans-serif;
     color: #EEEEEE;
-    box-shadow: 7px 13px 37px #000;
+    box-shadow: 7px 13px 37px #FCF8E8;
 }
 
 /* Es el fondo de puntitos que tienen las paginas y ademas la aplicación de la fuente 'Monserat' */
 body {
     font-family: 'Montserrat', sans-serif;
-    background-color: #3e5f84;
-    opacity: 1;
-    background-image:  radial-gradient(#130a19 0.9px, transparent 0.9px), radial-gradient(#130a19 0.9px, #3e5f84 0.9px);
-    background-size: 36px 36px;
-    background-position: 0 0,18px 18px;
+    background-color: #51557E;
+    
+    
 }
 
 /* El tamaño y color de los titulos y textos del formulario */
@@ -125,18 +123,17 @@ button:active {
     width: 400px;
     background: #16181d;
     padding: 40px;
-    margin: auto;
-    margin-top: 100px;
+    margin: 0 auto;
     border-radius: 25px;
     font-family: 'Montserrat', sans-serif;
-    color: #EEEEEE;
+    color: #FFEBC1;
     box-shadow: 7px 13px 37px #000;
 }
 
 .form-contenedor-login h2 {
     font-size: 30px;
     margin: auto;
-    color: #00ADB5;
+    color: #8E3200;
     text-align: center;
     padding: 0px;
 
