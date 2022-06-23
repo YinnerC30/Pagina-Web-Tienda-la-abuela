@@ -1,179 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;800&display=swap');
 
-@import url('https://fonts.googleapis.com/css2? familia=Montserrat:wght@500&display=swap');
-
-/* Es la caja de color negro que rodea los formularios*/
-.form-contenedor {
-    width: 400px;
-    background: #FCF8E8;
-    padding: 40px;
-    margin: auto;
-    border-radius: 25px;
-    font-family: 'Montserrat', sans-serif;
-    color: #EEEEEE;
-    box-shadow: 7px 13px 37px #FCF8E8;
-}
-
-/* Es el fondo de puntitos que tienen las paginas y ademas la aplicación de la fuente 'Monserat' */
 body {
-    font-family: 'Montserrat', sans-serif;
-    background-color: #51557E;
-    
-    
+    height: 1000px;
+    background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
-/* El tamaño y color de los titulos y textos del formulario */
-.form-contenedor h2 {
-    font-size: 30px;
-    margin: auto;
-    color: #00ADB5;
+nav .nav-link {
+    text-decoration: none;
+    color: white;
+    padding-right: 50px;
+
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 30px;
+    background-color: #363062;
+    color: white;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+
+}
+
+.logo img {
+    height: 80px;
+    margin-right: 15px;
+}
+
+.logo-nombre {
+    font-size: 1.3rem;
+    color: white;
+}
+
+nav a:hover {
+    color: black;
+}
+
+.nav-link {
+    font-size: 20px;
+    color: white;
+}
+
+footer {
+    background-color: #363062;
+    margin-top: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 30px;
+}
+.formulario {
+    width: 450px;
+    background-color: #FFF2F2;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding: 30px 30px;
+    border-radius: 30px;
+    font-family: 'Open Sans', sans-serif;
+    box-shadow: 0px  0px 440px #363062;
+}
+
+.formulario_grande {
+    width: 1200px;
+    background-color: #FFF2F2;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding: 30px 30px;
+    border-radius: 30px;
+    font-family: 'Open Sans', sans-serif;
+    box-shadow: 0px  0px 440px #363062;
+}
+
+.formulario h2 {
+    color: #363062;
     text-align: center;
-    padding: 10px;
+    font-size: 35px;
+    margin: 15px;
+
 }
 
-.text {
-    font-size: 15px;
-    
-}
+.formulario_grande h2 {
+    color: #363062;
+    text-align: center;
+    font-size: 35px;
+    margin: 15px;
 
-/* Personalizaciones de los campos de input del formulario */
+}
 
 .form_input {
-    width: 95%;
-    background: #24303c;
+    width: 90%;
+    background: #e6dee9;
     padding: 8px;
-    border-color: rgba(0, 255, 255, 0.336);
-    border-radius: 4px;
-    font-family: 'calibri';
+    border-color: #ECB390;
+    border-radius: 10px;
+    font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     color: cadetblue;
 }
 
-.barra-busqueda {
-    width: 95%;
-    background: #24303c;
-    padding: 8px;
-    border-color: rgba(0, 255, 255, 0.336);
-    border-radius: 4px;
-    font-family: 'calibri';
+
+.boton {
+    width: 25%;
+    display:block;
+    background: #4D4C7D;
+    border: none;
+    padding: 5px;
+    color: black;
+    margin: 0 auto;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 10px;
+}
+
+.final_login_1 {
+    display: block;
+    text-align: center;
+    padding: 15px;
+}
+
+.final_login_2 {
+    display: block;
+    text-align: center;
+
+}
+
+.botonera {
+    display: flex;
+    justify-content: center;
+}
+.botones_reg {
+    width: 25%;
+    display:inline-block;
+    background: #4D4C7D;
+    border: none;
+    padding: 5px;
+    color: black;
+    margin: 15px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 10px;
+    
+}
+
+.barra_busqueda {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.barra {
+    padding-right: 100px;
+    width: 55%;
+    background: #e6dee9;
+    padding: 4px;
+    border-color: #ECB390;
+    border-radius: 10px;
+    font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     color: cadetblue;
 }
 
-/* Diseño de los botones del formulario */
-.botones {
-    width: 40%;
-    background: #1f53c5;
+.boton_busqueda {
+    margin-left: 10px;
+    width: 15%;
+    background: #6C969D;
     border: none;
-    padding: 12px;
-    color: white;
-    margin: 16px;
+    padding: 5px;
+    color: black;
     font-size: 15px;
-    font-family: 'Roboto', sans-serif;
-    text-align: center;
-    border-radius: 20px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 10px;
 }
-
-.botones-solos {
-    width: 80%;
-    background: #1f53c5;
-    border: none;
-    padding: 12px;
-    color: white;
-    margin: 16px 40px;
-    font-size: 15px;
-    font-family: 'Roboto', sans-serif;
-    text-align: center;
-    border-radius: 20px;
-}
-
-.botones-pequeños {
-    width: 30%;
-    background: #1f53c5;
-    margin-top: 10px;
-    border: none;
-    padding: 12px;
-    color: white;
-    font-size: 15px;
-    font-family: 'Roboto', sans-serif;
-    text-align: center;
-    border-radius: 20px;
-}    
-
-.botones-pequeños-centrado {
-    width: 30%;
-    background: #1f53c5;
-    margin-top: 10px;
-    border: none;
-    padding: 12px;
-    color: white;
-    font-size: 15px;
-    font-family: 'Roboto', sans-serif;
-    text-align: center;
-    border-radius: 20px;
-}    
 button:hover {
-    background: #3e6aca;
+    background: #f1a7ba;
 }
 
 button:active {
     background-color: #3eaeca;
 }
-/* Contenedor negro y centrado del login user normal */
-.form-contenedor-login {
-    width: 400px;
-    background: #16181d;
-    padding: 40px;
-    margin: 0 auto;
-    border-radius: 25px;
-    font-family: 'Montserrat', sans-serif;
-    color: #FFEBC1;
-    box-shadow: 7px 13px 37px #000;
-}
-
-.form-contenedor-login h2 {
-    font-size: 30px;
-    margin: auto;
-    color: #8E3200;
-    text-align: center;
-    padding: 0px;
-
-}
-
-/* Diseño de los enlaces - colores en sí */
 
 a {
-    font-size: 15px;
-}
-a:visited {
-    color: crimson;
-}
-
-a:link {
-    color: #1eaaa3;
+    color: #363062;
     text-decoration: none;
-    
-
+    font-size: 14px;
+    font-weight: bold;
 }
 
 a:hover {
-    color: #00FFAB;
-    font-size: 15px;
+    color: #87805E;
 }
 
-a:active {
-    color: #1f53c5;
+.formulario_grande h3 {
+    margin-left: 60px;
 }
 
-.acciones-admin {
-    font-size: 15px;
-    padding: 30px;
-    border-color: #00FFAB;
-    border: 10px;
-    
+table {
+    width: 90%;
+    background-color: #a6c1ee;
+    text-align: left;
+    border-collapse: collapse;
+    margin: 0 auto;
 }
 
-.acciones-admin h3 {
-    font-size: 20px;
-    border: 20px;
-    border-color: #1f53c5;
+thead {
+    background-color: #363062;
+    color: white;
 }
+
+th, td {
+    padding: 10px;
+    border-collapse: collapse;
+    border-style: solid;
+    border-color: black;
+}
+
+.contenedor {
+    margin: 0;
+}
+
+.textos a {
+    text-decoration: none;
+    color: black;
+}
+

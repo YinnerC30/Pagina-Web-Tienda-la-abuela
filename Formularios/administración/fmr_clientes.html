@@ -4,28 +4,84 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../estilos.css">
+    <link rel="stylesheet" href="../../style.css"">
     <title>Clientes</title>
 </head>
 <body>
-    <div class="form-contenedor">
+    <div class="formulario_grande">
+        
         <h2>Clientes</h2>
         
-        <h3>Datos Clientes</h3>
+        <h3 class="mensaje">Información de los Clientes</h3>
         
-        <div class="barra-busqueda">
-            <input type="number">
-            <button type="submit">Buscar</button>
+        <div class="barra_busqueda">
+            <input class="barra" type="number" placeholder="Introduzca el ID del cliente">
+            <button class="boton_busqueda" type="submit">Buscar</button>
         </div>
         
+        <div class="tabla">
+            <table>
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th>ID EMPLEADO</th>
+                        <th>NOMBRE</th>
+                        <th>APELLIDO</th>
+                        <th>NUMERO DE TELEFONO</th>
+                        <th>DIRECCIÓN</th>
+                        <th>CORREO ELECTRONICO</th>
+                    </tr>
+                </thead>
+
+                <tr>
+                    <th>
+                        <input type="checkbox" name="" id="">
+                    </th>
+                    <th>1687431</th>
+                    <th>Amada</th>
+                    <th>Andrade Barrios</th>
+                    <th>67001</th>
+                    <th>mrbormsen@googl.win</th>
+                    <th>Camiño Mateo, 5, 42º A</th>
+                </tr>
+            
+                <tr>
+                    <th>
+                        <input type="checkbox" name="" id="">
+                    </th>
+                    <th>4041144</th>
+                    <th>Eliseo</th>
+                    <th>Padilla Nadal</th>
+                    <th>69365</th>
+                    <th>gewino743@3dmasti.com</th>
+                    <th>Carrer Pau, 917, 5º C</th>
+                </tr>
+            
+                <tr>
+                    <th>
+                        <input type="checkbox" name="" id="">
+                    </th>
+                    <th>4062882</th>
+                    <th>Candelaria</th>
+                    <th>Barón</th>
+                    <th>11802</th>
+                    <th>gewino874@3dmasti.com</th>
+                    <th>Calle Irene 550 7º B</th>
+                </tr>
+            
+                
+            
+            </table>
+            
+        </div>
         
-        <div>
-            <button class="botones-pequeños">Modificar</button>
-            <button class="botones-pequeños">Crear</button>
-            <button class="botones-pequeños">Eliminar</button>
+        <div class="botonera">
+            <button class="botones_reg">Modificar</button>
+            <button class="botones_reg">Crear</button>
+            <button class="botones_reg">Eliminar</button>
         </div>
         <div>
-            <button class="botones">Salir</button>
+            <button class="boton">Salir</button>
         </div>
         
     </div>

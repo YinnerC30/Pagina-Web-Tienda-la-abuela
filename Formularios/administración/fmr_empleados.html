@@ -4,30 +4,95 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../estilos.css">
+    <link rel="stylesheet" href="../../style.css"">
     <title>Empleados</title>
 </head>
 <body>
-    <div class="form-contenedor">
+    
+    <div class="formulario_grande">
         <h2>Empleados</h2>
         
-        <h3>Datos Empleados</h3>
+        <h3>Información de los empleados</h3>
         
-        <div class="barra-busqueda">
-            <input type="number">
-            <button type="submit">Buscar</button>
+        <div class="barra_busqueda">
+            <input class="barra" type="number" placeholder="Introduzca el ID del empleado">
+            <button class="boton_busqueda" type="submit">Buscar</button>
         </div>
         
+        <div class="tabla">
+            <table>
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th>ID EMPLEADO</th>
+                        <th>NOMBRE</th>
+                        <th>APELLIDO</th>
+                        <th>ESTADO CIVIL</th>
+                        <th>NUMERO DE TELEFONO</th>
+                        <th>DIRECCIÓN</th>
+                        <th>CORREO ELECTRONICO</th>
+                        <th>CARGO</th>
+                        <th>SALARIO</th>
+                    </tr>
+                </thead>
+
+                <tr>
+                    <th>
+                        <input type="checkbox" name="" id="">
+                    </th>
+                    <th>4724792</th>
+                    <th>Mario</th>
+                    <th>Salinas</th>
+                    <th>Soltero</th>
+                    <th>52063</th>
+                    <th>Plaça Nerea, 794, 3º B</th>
+                    <th>sdkfdfj23@gmail.com</th>
+                    <th>Cajero</th>
+                    <th>1500000</th>
+                </tr>
+            
+                <tr>
+                    <th>
+                        <input type="checkbox" name="" id="">
+                    </th>
+                    <th>6724756</th>
+                    <th>Dario</th>
+                    <th>Furinas</th>
+                    <th>Soltero</th>
+                    <th>20637</th>
+                    <th>Nerea, 694, 3º Y</th>
+                    <th>iuuifdfj23@gmail.com</th>
+                    <th>Bodeguero</th>
+                    <th>1800000</th>
+                </tr>
+            
+                <tr>
+                    <th>
+                        <input type="checkbox" name="" id="">
+                    </th>
+                    <th>8517875</th>
+                    <th>Roberto</th>
+                    <th>Higueras Artigas</th>
+                    <th>Soltero</th>
+                    <th>91583</th>
+                    <th>Ruela Eva, 559, Bajos</th>
+                    <th>trurturt6@gmail.com</th>
+                    <th>Limpieza</th>
+                    <th>1000000</th>
+                </tr>
+            
+            </table>
+            
+        </div>
         
+        <div class="botonera"> 
+            <button class="botones_reg">Modificar</button>
+            <button class="botones_reg">Crear</button>
+            <button class="botones_reg">Eliminar</button>
+        </div>
         <div>
-            <button class="botones-pequeños">Modificar</button>
-            <button class="botones-pequeños">Crear</button>
-            <button class="botones-pequeños">Eliminar</button>
+            <button class="boton">Salir</button>
         </div>
-        <div>
-            <button class="botones">Salir</button>
-        </div>
-        
     </div>
 </body>
 </html>

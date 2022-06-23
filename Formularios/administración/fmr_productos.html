@@ -4,28 +4,86 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../estilos.css">
+    <link rel="stylesheet" href="../../style.css">
     <title>Productos</title>
 </head>
 <body>
-    <div class="form-contenedor">
+    <div class="formulario_grande">
         <h2>Productos</h2>
         
-        <h3>Datos productos</h3>
+        <h3>Información de productos</h3>
         
-        <div class="barra-busqueda">
-            <input type="number">
-            <button type="submit">Buscar</button>
+        <div class="barra_busqueda">
+            <input class="barra" type="number" placeholder="Introduzca el codigo del producto">
+            <button class="boton_busqueda" type="submit">Buscar</button>
         </div>
         
-        
-        <div>
-            <button class="botones-pequeños">Modificar</button>
-            <button class="botones-pequeños">Crear</button>
-            <button class="botones-pequeños">Eliminar</button>
+        <div class="tabla">
+            <table>
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th>ID PRODUCTO</th>
+                        <th>NOMBRE</th>
+                        <th>CANTIDAD</th>
+                        <th>MARCA</th>
+                        <th>PROVEEDOR</th>
+                        <th>VALOR</th>
+                        <th>CATEGORIA</th>
+                    </tr>
+                </thead>
+
+                <tr>
+                    <th>
+                        <input type="checkbox" name="" id="">
+                    </th>
+                    <th>1</th>
+                    <th>JABON</th>
+                    <th>40</th>
+                    <th>REY</th>
+                    <th>PRODUCTOS JONI</th>
+                    <th>3000</th>
+                    <th>ASEO</th>
+                </tr>
+            
+                <tr>
+                    <th>
+                        <input type="checkbox" name="" id="">
+                    </th>
+                    <th>2</th>
+                    <th>ARROZ</th>
+                    <th>80</th>
+                    <th>CAROLINA</th>
+                    <th>DON CARLOS</th>
+                    <th>3500</th>
+                    <th>COMIDA</th>
+                </tr>
+            
+                <tr>
+                    <th>
+                        <input type="checkbox" name="" id="">
+                    </th>
+                    <th>3</th>
+                    <th>AZUCAR</th>
+                    <th>30</th>
+                    <th>MORENA</th>
+                    <th>DON CARLOS</th>
+                    <th>2800</th>
+                    <th>COMIDA</th>
+                </tr>
+            
+                
+            
+            </table>
+            
+        </div>
+        <div class="botonera">
+            <button class="botones_reg">Modificar</button>
+            <button class="botones_reg">Crear</button>
+            <button class="botones_reg">Eliminar</button>
         </div>
         <div>
-            <button class="botones">Salir</button>
+            <button class="boton">Salir</button>
         </div>
         
     </div>
