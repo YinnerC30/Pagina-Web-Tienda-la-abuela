@@ -4,19 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../../style.css"">
+    <link rel="stylesheet" href="../../style.css">
     <link rel="icon" href="../../recursos/logo_small_icon_only.png">
-    <title>Clientes</title>
+    <title>Ventas</title>
 </head>
 <body>
     <div class="formulario_grande">
+        <h2>Ventas</h2>
         
-        <h2>Clientes</h2>
-        
-        <h3 class="mensaje">Información de los Clientes</h3>
+        <h3>Información de Ventas</h3>
         
         <div class="barra_busqueda">
-            <input class="barra" type="number" placeholder="Introduzca el ID del cliente">
+            <input class="barra" type="number" placeholder="Introduzca el codigo de la venta">
             <button class="boton_busqueda" type="submit">Buscar</button>
         </div>
         
@@ -25,12 +24,14 @@
                 <thead>
                     <tr>
                         <th></th>
-                        <th>ID EMPLEADO</th>
-                        <th>NOMBRE</th>
-                        <th>APELLIDO</th>
-                        <th>NUMERO DE TELEFONO</th>
-                        <th>CORREO ELECTRONICO</th>
-                        <th>DIRECCIÓN</th>
+                        <th>ID VENTA</th>
+                        <th>FECHA DE VENTA</th>
+                        <th>ID CLIENTE</th>
+                        <th>NOMBRE CLIENTE</th>
+                        <th>APELLIDO CLIENTE</th>
+                        <th>PRODUCTOS COMPRADOS</th>
+                        <th>METODO DE PAGO</th>
+                        <th>VALOR DE VENTA</th>
                     </tr>
                 </thead>
 
@@ -38,36 +39,42 @@
                     <th>
                         <input type="checkbox" name="" id="">
                     </th>
+                    <th>1</th>
+                    <th>2022-05-13</th>
                     <th>1687431</th>
                     <th>Amada</th>
                     <th>Andrade Barrios</th>
-                    <th>67001</th>
-                    <th>mrbormsen@googl.win</th>
-                    <th>Camiño Mateo, 5, 42º A</th>
+                    <th>JABON REY</th>
+                    <th>EFECTIVO</th>
+                    <th>3000</th>
                 </tr>
             
                 <tr>
                     <th>
                         <input type="checkbox" name="" id="">
                     </th>
+                    <th>2</th>
+                    <th>2022-05-13</th>
                     <th>4041144</th>
                     <th>Eliseo</th>
                     <th>Padilla Nadal</th>
-                    <th>69365</th>
-                    <th>gewino743@3dmasti.com</th>
-                    <th>Carrer Pau, 917, 5º C</th>
+                    <th>ARROZ</th>
+                    <th>EFECTIVO</th>
+                    <th>3500</th>
                 </tr>
             
                 <tr>
                     <th>
                         <input type="checkbox" name="" id="">
                     </th>
-                    <th>4062882</th>
-                    <th>Candelaria</th>
-                    <th>Barón</th>
-                    <th>11802</th>
-                    <th>gewino874@3dmasti.com</th>
-                    <th>Calle Irene 550 7º B</th>
+                    <th>3</th>
+                    <th>2022-05-15</th>
+                    <th>4041144</th>
+                    <th>Eliseo</th>
+                    <th>Padilla Nadal</th>
+                    <th>ESCOBA PLASTICA</th>
+                    <th>EFECTIVO</th>
+                    <th>7000</th>
                 </tr>
             
                 
@@ -75,14 +82,13 @@
             </table>
             
         </div>
-        
         <div class="botonera">
             <button class="botones_reg">Modificar</button>
-            <a href="../registro/frm_registro_cliente.html" class="botones_reg">Crear</a>
+            <a href="../registro/frm_registro_venta.html" class="botones_reg">Crear</a>
             <button class="botones_reg">Eliminar</button>
         </div>
         <div>
-            <a href="../funciones_users/fmr_funciones_empleado.html" class="boton">Salir</a>
+            <a href="../funciones_users/frm_funciones_admin.html" class="boton">Salir</a>
         </div>
         
     </div>

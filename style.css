@@ -1,7 +1,71 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;800&display=swap');
 
+/* Diseño para la pagina principal  */
+
+h1 {
+    font-size: 4em;
+}
+
+h2 {
+    font-size: 2.7em;
+}
+
+p {
+    font-size: 1.25em;
+}
+
+.boton-index {
+    width: 25%;
+    display:block;
+    background: #4D4C7D;
+    border: none;
+    padding: 5px;
+    color: white;
+    margin: 0 auto;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 10px;
+}
+#hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    color: white;
+    background-image: linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+    url(recursos/inicio.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#somos-tla .contenedor{
+    padding: 100px 12px;
+    display: flex;
+    justify-content: center;
+}
+
+#somos-tla .textoi {
+    width: 50%;
+    text-align: initial;
+    padding: 0px 30px;
+}
+
+#somos-tla .contenedor-img {
+    background-image: linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+    url(recursos/tla.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 300px;
+    width: 50%;
+}
+
+/* Ajustes genrales (cuerpo,encabezado y pie de pagina*/
+
 body {
-    height: 1000px;
+    height: 1200px;
     background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
     margin: 0;
     font-family: 'Open Sans', sans-serif;
@@ -25,6 +89,8 @@ header {
     background-color: #363062;
     color: white;
 }
+
+
 
 .logo {
     display: flex;
@@ -59,6 +125,19 @@ footer {
     justify-content: space-between;
     padding: 20px 30px;
 }
+
+.alinear p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    color: white;
+}
+.contacto {
+    padding-top: 10px;
+    padding-right: 20px;
+}
+
+/* Fondo de los formularios de registro y control */
+
 .formulario {
     width: 450px;
     background-color: #FFF2F2;
@@ -81,6 +160,7 @@ footer {
     box-shadow: 0px  0px 440px #363062;
 }
 
+/* Diseño de los textos dentro del formulario */
 .formulario h2 {
     color: #363062;
     text-align: center;
@@ -97,6 +177,7 @@ footer {
 
 }
 
+/* Diseño a las entradas por teclado */
 .form_input {
     width: 90%;
     background: #e6dee9;
@@ -108,7 +189,7 @@ footer {
     color: cadetblue;
 }
 
-
+/* Diseño a los botones tanto individuales como los grupales */
 .boton {
     width: 25%;
     display:block;
@@ -192,20 +273,28 @@ button:active {
     background-color: #3eaeca;
 }
 
+a:hover {
+    background: #f1a7ba;
+}
+
+a:active {
+    background-color: #3eaeca;
+}
+
 a {
     color: #363062;
     text-decoration: none;
     font-size: 14px;
     font-weight: bold;
+    text-align: center;
 }
 
-a:hover {
-    color: #87805E;
-}
 
 .formulario_grande h3 {
     margin-left: 60px;
 }
+
+/* Diseño para las tablas y contenido */
 
 table {
     width: 90%;
